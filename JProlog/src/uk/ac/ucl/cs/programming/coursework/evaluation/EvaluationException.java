@@ -1,7 +1,7 @@
 package uk.ac.ucl.cs.programming.coursework.evaluation;
 
 /**
- * first
+ * first test
  */
 public abstract class EvaluationException extends Exception {
 
