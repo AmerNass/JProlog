@@ -22,6 +22,7 @@ public abstract class AbstractUnificationStrategyTest {
      * <p>Tests the most basic case I can think of, you just try to unify a variable with a constant.</p>
      *
      * @throws Exception if an unexpected error occurs
+     * Test ...
      */
     @Test
     public void testUnifyVariableAndConstant() throws Exception {
