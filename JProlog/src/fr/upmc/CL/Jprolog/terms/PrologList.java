@@ -31,14 +31,15 @@ public class PrologList implements Term{
 
 	@Override
 	public boolean occurs(Term term) {
-		if(tail == null)
+
+		if (head.equals(term)) 
 		{
-			return false;
+			return true;
 		}
 		else{
-			if (head.equals(term)) 
+			if(tail == null)
 			{
-				return true;
+				return false;
 			}
 			else
 				return occurs(tail);
@@ -66,9 +67,6 @@ public class PrologList implements Term{
 		}
 
 	}
-
-
-
 
 
 }
