@@ -1,12 +1,17 @@
-This is a piece of coursework that I had to submit at university as part
-of the programming course that I needed to attend in the second term
-(Object Oriented Programming:
-http://www-typo3.cs.ucl.ac.uk/students/syllabus/undergrad/1008_object_oriented_programming/).
+This is a piece of coursework that we have to submit at university as part
+of the programming course "Conception des langages" you can find more 
+information on my professor (Basile STARYNKEVICH) web page :
+http://starynkevitch.net/Basile/
 
-== COMP1008 - Java coursework
+Collaborators :
+Amer Nasser el dine ( amer.nassereldine@gmail.com)
+Ibtissam Tariqui (ibtissam.tariqui@gmail.com)
+Alexis deluze (a.deluze@gmail.com)
+
+== NI503 - Languages Conception coursework
 
 == Known limitations:
-As you will see, I chose to implement the Prolog interpreter, but I only
+As you will see, we chose to complete the implementation the Prolog interpreter, but I only
 implemented basic features. The only terms you can use are constants,
 predicates and variables (so, for example, I didn't implement lists).
 Furthermore there are no builtin predicates available, like, for example,
