@@ -1,14 +1,19 @@
-This is a piece of coursework that I had to submit at university as part
-of the programming course that I needed to attend in the second term
-(Object Oriented Programming:
-http://www-typo3.cs.ucl.ac.uk/students/syllabus/undergrad/1008_object_oriented_programming/).
+This is a piece of coursework that we have to submit at university as part
+of the programming course "Conception des langages" you can find more 
+information on my professor (Basile STARYNKEVICH) web page :
+http://starynkevitch.net/Basile/
 
-== COMP1008 - Java coursework
+Collaborators :
+Amer Nasser el dine ( amer.nassereldine@gmail.com)
+Ibtissam Tariqui (ibtissam.tariqui@gmail.com)
+Alexis deluze (a.deluze@gmail.com)
+
+== NI503 - Languages Conception coursework
 
 == Known limitations:
-As you will see, I chose to implement the Prolog interpreter, but I only
-implemented basic features. The only terms you can use are constants,
-predicates and variables (so, for example, I didn't implement lists).
+As you will see, we chose to complete the implementation of a Prolog interpreter, to implement 
+more functionnality. In the actual version the only terms we can use are constants,
+predicates and variables (so, for example, they didn't implement lists).
 Furthermore there are no builtin predicates available, like, for example,
 there's no less-than predicate ("<") available, no forall predicate, etc.
 which means that you can only evaluate simple Prolog queries. They will,
@@ -16,7 +21,7 @@ however, work.
 
 == How to use / start the application:
 Basically you just have to execute the main class, namely
-"uk.ac.ucl.cs.programming.coursework.main.Application". There are no
+"fr.upmc.CL.Jprolog.main.Application". There are no
 third party libraries required in order to compile this project, which
 is why I thought it's okay if I just submit the source files without any
 build files. However, the IntelliJ module file is included, in case you're
