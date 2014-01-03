@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import fr.upmc.CL.Jprolog.terms.PrologList;
 import uk.ac.ucl.cs.programming.coursework.terms.Constant;
 import uk.ac.ucl.cs.programming.coursework.terms.Predicate;
 import uk.ac.ucl.cs.programming.coursework.terms.Term;
@@ -76,6 +77,8 @@ public class RobinsonUnificationStrategy implements UnificationStrategy {
             return unify((Variable) lhs, rhs, workingSet, unifier);
         } else if (lhs instanceof Predicate) {
             return unify((Predicate) lhs, rhs, workingSet, unifier);
+        } else if (lhs instanceof PrologList) {
+        	return unify((PrologList) lhs, rhs, workingSet, unifier);
         }
 
         // One could possibly also argue that if this happens an exceptions should be thrown instead
@@ -88,6 +91,21 @@ public class RobinsonUnificationStrategy implements UnificationStrategy {
         }
 
         return false;
+    }
+    
+    private boolean unify(PrologList list, Term term,
+    		List<UnificationPair> workingSet, List<UnificationPair> unifier){
+    	
+    	if(term instanceof Variable)
+    	{
+    		return unify((Variable) term, list, workingSet, unifier);
+    	}
+    	
+    	if(list.equals(term)){
+    		return true;
+    	}
+    	
+    	return false;
     }
 
     private boolean unify(Constant constant, Term term,
