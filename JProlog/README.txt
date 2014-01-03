@@ -49,7 +49,5 @@ for information, unification and the backtracking evaluation approach. This
 page (http://www.cs.rpi.edu/~freems/proj3/Unification_and_Variables.htm)
 explains how the Robinson Unification algorithm works, which is basically
 the algorithm that I've implemented, just more in terms of objects rather
-than what this description states. The backtracking approach / rule
-evaluation mechanism has been implemented according to some COMP1007
-Lecture notes. 
+than what this description states. 
 
