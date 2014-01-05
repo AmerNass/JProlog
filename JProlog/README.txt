@@ -19,6 +19,25 @@ there's no less-than predicate ("<") available, no forall predicate, etc.
 which means that you can only evaluate simple Prolog queries. They will,
 however, work.
 
+== Added Features
+This Application was not fully working, there was a lot of bugs concerning the unification process.
+For that we search for a algorithm who can do it with the simpliest way (Robinson algorithm).
+In the other hand, the programmer didnt take in consideration that someone else can continue hos work, so it was
+so difficult to add new features ..
+But at the end we succeded.
+So in this work we add the unification and the backtrack algorithm, List, and predicates
+We did a lot of tests on unification algorithm and an exemple is given in this work
+
+== exemple running
+
+to run this exemple you should run the JProlog.jar application
+Prolog interfaces is opened
+there is a folder in src/main/resources called family.pl
+to charged yo just have to put
+[...src/main/resources/family].
+
+then you can test the predicates and see how the unification is working
+
 == How to use / start the application:
 Basically you just have to execute the main class, namely
 "fr.upmc.CL.Jprolog.main.Application". There are no
@@ -42,6 +61,7 @@ Additionally I have included a set of test cases in the form of JUnit
 tests. Any JUnit 4.x JAR file will be sufficient in order to execute
 those tests and as most IDEs nowadays provide those library files
 anyway I didn't include them in the archive file.
+
 
 == Resources
 There are basically just two parts in this application for which I searched
