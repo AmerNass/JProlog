@@ -13,6 +13,26 @@ public class PrologList implements Term{
 		this.tail = tail;
 	}
 
+	public PrologList(String argument) {
+		argument = argument.trim();
+		if(argument.length() == 2)
+		{
+			head = null;
+			tail = null;
+		}
+		else if(argument.contains("|"))
+		{
+			String[] headAndTail = argument.split("|");
+			String h = headAndTail[0];
+			String t = headAndTail[1];
+			
+			h = h.substring(1);
+			t = t.substring(0,t.length() - 1);
+			
+		}
+		
+	}
+
 	public Term getHead() {
 		return head;
 	}
@@ -29,6 +49,7 @@ public class PrologList implements Term{
 		this.tail = tail;
 	}
 
+	//a revoir
 	@Override
 	public boolean occurs(Term term) {
 
@@ -45,6 +66,7 @@ public class PrologList implements Term{
 				return occurs(tail);
 		}
 	}
+
 
 	@Override
 	public Term substitute(Term term, Term replacement) {
