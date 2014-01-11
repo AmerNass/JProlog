@@ -66,7 +66,7 @@ anyway I didn't include them in the archive file.
 == Resources
 There are basically just two parts in this application for which I searched
 for information, unification and the backtracking evaluation approach. This
-page (http://www.cs.rpi.edu/~freems/proj3/Unification_and_Variables.htm)
+page (http://staff.science.uva.nl/~ulle/teaching/cs3aur-kings-2002/pdf/unification.pdf)
 explains how the Robinson Unification algorithm works, which is basically
 the algorithm that I've implemented, just more in terms of objects rather
 than what this description states. 
