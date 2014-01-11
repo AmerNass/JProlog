@@ -1,4 +1,4 @@
-package prolog.io;
+package fr.upmc.CL.Jprolog.V2.prolog.io;
 
 import java.io.IOException;
 import java.io.Writer;
