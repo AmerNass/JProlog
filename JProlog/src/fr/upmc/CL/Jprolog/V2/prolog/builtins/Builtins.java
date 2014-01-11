@@ -35,11 +35,19 @@ import prolog.terms.Term;
 import prolog.terms.Unfolder;
 import prolog.terms.Var;
 
+/*
+ * <b>UPMC student project : "CL - Conception des langages"</b>
+ * <p>This Class is part of a student project at the Pierre and Marie Curie University (UPMC).</p>
+ * <p>This is an open source project : feel free to use, share, and extend this Prolog interpreter.</p>
+ * 
+ * @author Amer Nasser, Ibtissam Tariqui, Alexis Deluze
+ * @version 2.0
+ */
+
 /**
  This class contains a dictionary of all builtins i.e.
  Java based classes callable from Prolog.
  They should provide a constructor and an exec method.
- @author Amer, Ibtissam
 */
 public class Builtins extends HashDict {
   
