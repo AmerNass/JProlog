@@ -19,6 +19,25 @@ there's no less-than predicate ("<") available, no forall predicate, etc.
 which means that you can only evaluate simple Prolog queries. They will,
 however, work.
 
+== Added Features
+This Application was not fully working, there was a lot of bugs concerning the unification process.
+For that we search for a algorithm who can do it with the simpliest way (Robinson algorithm).
+In the other hand, the programmer didnt take in consideration that someone else can continue hos work, so it was
+so difficult to add new features ..
+But at the end we succeded.
+So in this work we add the unification and the backtrack algorithm, List, and predicates
+We did a lot of tests on unification algorithm and an exemple is given in this work
+
+== exemple running
+
+to run this exemple you should run the JProlog.jar application
+Prolog interfaces is opened
+there is a folder in src/main/resources called family.pl
+to charged yo just have to put
+[...src/main/resources/family].
+
+then you can test the predicates and see how the unification is working
+
 == How to use / start the application:
 Basically you just have to execute the main class, namely
 "fr.upmc.CL.Jprolog.main.Application". There are no
@@ -43,13 +62,12 @@ tests. Any JUnit 4.x JAR file will be sufficient in order to execute
 those tests and as most IDEs nowadays provide those library files
 anyway I didn't include them in the archive file.
 
+
 == Resources
 There are basically just two parts in this application for which I searched
 for information, unification and the backtracking evaluation approach. This
 page (http://www.cs.rpi.edu/~freems/proj3/Unification_and_Variables.htm)
 explains how the Robinson Unification algorithm works, which is basically
 the algorithm that I've implemented, just more in terms of objects rather
-than what this description states. The backtracking approach / rule
-evaluation mechanism has been implemented according to some COMP1007
-Lecture notes. 
+than what this description states. 
 
