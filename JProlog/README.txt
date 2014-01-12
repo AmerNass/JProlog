@@ -28,21 +28,39 @@ But at the end we succeded.
 So, in this work we add the unification and the backtrack algorithm, Lists and predicates.
 We did a lot of tests on unification algorithm and an exemple is given in this work
 
+We were three on this project so we tried to add many features, and we obtains a very good result :
+Lets start with the main features :
+ ** changing the io methods to make parsing easier
+ ** adding a Builtin class :
+      This class contains a dictionary of all builtins i.e.
+      Java based classes callable from Prolog.
+      They should provide a constructor and an exec method.
+ ** Adding Cons method ( list constructor) with all lists caracterstics
+ ** Adding Var and NonVar classes to use OOP better
+ ** Adding the backtrack feature : now we can press "; " button to obtains all solutions
+
 == exemple running
 
 To run this exemple you should run the JProlog.jar application
-Prolog interfaces is opened
-there is a folder in src/main/resources called family.pl
-to charged you just have to put
-[...src/main/resources/family].
+This jar file is in the Release folder 
+in this folder you can find two other files to test
+
+With command line run the jar file:
+    java -jar JProlog.jar
+
+then charge the file family.pro :
+    [family].
+
+then you can make the test you want
+All features are working
 
 then you can test the predicates and see how the unification is working
 
 == How to use / start the application:
 Basically you just have to execute the main class, namely
-"fr.upmc.CL.Jprolog.main.Application". There are no
+"/JProlog/src/fr/upmc/CL/Jprolog/V2/prolog/Main.java". There are no
 third party libraries required in order to compile this project, which
-is why I thought it's okay if I just submit the source files without any
+is why we thought it's okay if we just submit the source files without any
 build files. However, the IntelliJ module file is included, in case you're
 using IntelliJ as well.
 
