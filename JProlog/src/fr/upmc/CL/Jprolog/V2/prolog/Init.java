@@ -31,7 +31,7 @@ public class Init {
     return s;
   }
   
-  public static String default_lib="src/prolog/lib.pro";
+  public static String default_lib="lib.pro";
   
   public static DataBase default_db;
   
