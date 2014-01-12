@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import prolog.io.IO;
-import prolog.terms.Term;
+import fr.upmc.CL.Jprolog.V2.prolog.io.IO;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Term;
 
 /*
  * <b>UPMC student project : "CL - Conception des langages"</b>

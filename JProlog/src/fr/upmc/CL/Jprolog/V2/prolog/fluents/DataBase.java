@@ -4,15 +4,15 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import prolog.Init;
-import prolog.io.IO;
-import prolog.io.Parser;
-import prolog.terms.Clause;
-import prolog.terms.Cons;
-import prolog.terms.Const;
-import prolog.terms.Fun;
-import prolog.terms.Prog;
-import prolog.terms.Term;
+import fr.upmc.CL.Jprolog.V2.prolog.Init;
+import fr.upmc.CL.Jprolog.V2.prolog.io.IO;
+import fr.upmc.CL.Jprolog.V2.prolog.io.Parser;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Clause;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Cons;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Const;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Fun;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Prog;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Term;
 /*
  * <b>UPMC student project : "CL - Conception des langages"</b>
  * <p>This Class is part of a student project at the Pierre and Marie Curie University (UPMC).</p>
@@ -243,9 +243,7 @@ public class DataBase extends BlackBoard {
     }
   }
   
-  /**
-    adds a Clause to the joint Linda and Predicate table
-  */
+
   static public void addClause(Clause C,HashDict ktable) {
     String k=C.getKey();
     // overwrites previous definitions

@@ -1,6 +1,6 @@
 package fr.upmc.CL.Jprolog.V2.prolog.fluents;
 
-import prolog.terms.SystemObject;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.SystemObject;
 /*
  * <b>UPMC student project : "CL - Conception des langages"</b>
  * <p>This Class is part of a student project at the Pierre and Marie Curie University (UPMC).</p>

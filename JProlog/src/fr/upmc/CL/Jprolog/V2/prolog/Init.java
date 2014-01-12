@@ -1,13 +1,13 @@
 package fr.upmc.CL.Jprolog.V2.prolog;
 
-import prolog.builtins.Builtins;
-import prolog.fluents.DataBase;
-import prolog.io.IO;
-import prolog.terms.Clause;
-import prolog.terms.Const;
-import prolog.terms.Fun;
-import prolog.terms.Prog;
-import prolog.terms.Term;
+import fr.upmc.CL.Jprolog.V2.prolog.builtins.Builtins;
+import fr.upmc.CL.Jprolog.V2.prolog.fluents.DataBase;
+import fr.upmc.CL.Jprolog.V2.prolog.io.IO;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Clause;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Const;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Fun;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Prog;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Term;
 
 /*
  * <b>UPMC student project : "CL - Conception des langages"</b>

@@ -3,9 +3,9 @@ package fr.upmc.CL.Jprolog.V2.prolog.fluents;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import prolog.terms.Prog;
-import prolog.terms.Source;
-import prolog.terms.Term;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Prog;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Source;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Term;
 
 /*
  * <b>UPMC student project : "CL - Conception des langages"</b>

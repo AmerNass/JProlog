@@ -3,7 +3,7 @@ package fr.upmc.CL.Jprolog.V2.prolog.fluents;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import prolog.io.IO;
+import fr.upmc.CL.Jprolog.V2.prolog.io.IO;
 /*
  * <b>UPMC student project : "CL - Conception des langages"</b>
  * <p>This Class is part of a student project at the Pierre and Marie Curie University (UPMC).</p>

@@ -1,6 +1,6 @@
 package fr.upmc.CL.Jprolog.V2.prolog.terms;
 
-import prolog.fluents.HashDict;
+import fr.upmc.CL.Jprolog.V2.prolog.fluents.HashDict;
 
 /**
   Used in implementing uniform replacement of

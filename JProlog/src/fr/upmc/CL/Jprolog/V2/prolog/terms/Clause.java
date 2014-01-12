@@ -2,9 +2,9 @@ package fr.upmc.CL.Jprolog.V2.prolog.terms;
 
 import java.util.Iterator;
 
-import prolog.fluents.HashDict;
-import prolog.io.IO;
-import prolog.io.Parser;
+import fr.upmc.CL.Jprolog.V2.prolog.fluents.HashDict;
+import fr.upmc.CL.Jprolog.V2.prolog.io.IO;
+import fr.upmc.CL.Jprolog.V2.prolog.io.Parser;
 /*
  * <b>UPMC student project : "CL - Conception des langages"</b>
  * <p>This Class is part of a student project at the Pierre and Marie Curie University (UPMC).</p>

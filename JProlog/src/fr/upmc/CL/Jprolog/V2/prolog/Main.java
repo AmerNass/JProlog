@@ -1,6 +1,6 @@
 package fr.upmc.CL.Jprolog.V2.prolog;
 
-import prolog.builtins.Builtins;
+import fr.upmc.CL.Jprolog.V2.prolog.builtins.Builtins;
 
 /*
  * <b>UPMC student project : "CL - Conception des langages"</b>

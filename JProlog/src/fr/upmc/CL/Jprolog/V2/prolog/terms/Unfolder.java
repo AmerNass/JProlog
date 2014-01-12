@@ -2,8 +2,8 @@ package fr.upmc.CL.Jprolog.V2.prolog.terms;
 
 import java.util.Iterator;
 
-import prolog.Init;
-import prolog.io.IO;
+import fr.upmc.CL.Jprolog.V2.prolog.Init;
+import fr.upmc.CL.Jprolog.V2.prolog.io.IO;
 
 //!depends
 

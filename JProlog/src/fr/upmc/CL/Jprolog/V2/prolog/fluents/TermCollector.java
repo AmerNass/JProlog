@@ -2,9 +2,9 @@ package fr.upmc.CL.Jprolog.V2.prolog.fluents;
 
 import java.util.ArrayList;
 
-import prolog.terms.Prog;
-import prolog.terms.Sink;
-import prolog.terms.Term;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Prog;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Sink;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Term;
 
 /**
   Builds  Fluents from Java

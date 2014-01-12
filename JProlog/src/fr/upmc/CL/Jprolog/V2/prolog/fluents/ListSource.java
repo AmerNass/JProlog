@@ -1,8 +1,8 @@
 package fr.upmc.CL.Jprolog.V2.prolog.fluents;
 
-import prolog.terms.Const;
-import prolog.terms.Copier;
-import prolog.terms.Prog;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Const;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Copier;
+import fr.upmc.CL.Jprolog.V2.prolog.terms.Prog;
 
 /*
  * <b>UPMC student project : "CL - Conception des langages"</b>
