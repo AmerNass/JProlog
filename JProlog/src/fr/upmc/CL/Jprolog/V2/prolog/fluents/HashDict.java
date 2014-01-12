@@ -1,4 +1,7 @@
-package fr.upmc.CL.Jprolog.V2.prolog.terms;
+package fr.upmc.CL.Jprolog.V2.prolog.fluents;
+
+import java.util.HashMap;
+
 /*
  * <b>UPMC student project : "CL - Conception des langages"</b>
  * <p>This Class is part of a student project at the Pierre and Marie Curie University (UPMC).</p>
@@ -9,17 +12,18 @@ package fr.upmc.CL.Jprolog.V2.prolog.terms;
  */
 
 /**
-* Template for builtins of arity >0
+ General purpose dictionary
 */
 
-abstract public class FunBuiltin extends Fun {
-  public FunBuiltin(String f,int i){
-    super(f,i);
+@SuppressWarnings("rawtypes")
+public class HashDict extends HashMap {
+	private static final long serialVersionUID = 5484169170915765556L;
+
+public String name() {
+    return getClass().getName()+hashCode();
   }
   
-  abstract public int exec(Prog p);
-  
-  public boolean isBuiltin() {
-    return true;
+  public String stat() {
+    return "BlackBoard: "+size();
   }
 }
