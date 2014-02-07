@@ -81,6 +81,23 @@ those tests and as most IDEs nowadays provide those library files
 anyway I didn't include them in the archive file.
 
 
+======================================================================================
+Run with ant tool :
+
+We made a build.xml file to make compiling and running our program easier.
+To use ant builder you should have the correct package .. if ant was not installed 
+use this command:
+sudo apt-get -u install ant
+
+In the JProlog folder you have many folders and files (src, Release, family.pro, build.xml ...)
+just run these commands to test :
+To build the project :
+	ant -buildfile build.xml build
+
+To run the project :
+	ant -buildfile build.xml Main
+
+========================================================================================
 == Resources
 There are basically just two parts in this application for which I searched
 for information, unification and the backtracking evaluation approach. This
